@@ -20,7 +20,8 @@ export default {
         ligthshadow: "0px 0px 20px rgba(168, 168, 168, 0.15)"
       },
       backgroundImage: {
-        bgWhite: "url('../src/assets/bgWhite.png')"
+        bgWhite: "url('../src/assets/bgWhite.png')",
+        bgIMG: "url('../src/assets/bgIMG.png')"
       },
       fontFamily: {
         "DM-sans": ["DM Sans", "sans-serif"]
@@ -41,9 +42,12 @@ export default {
           "gray-color": withOpacity("--gray-color"),
           "secondary-color": withOpacity("--secondary-color"), 
           "white-color": withOpacity("--white-color"),      
+          "black-color": withOpacity("--black-color"),
         }
       },
       screens: {
+        "msm": "450px" ,
+        "md2": "900px",
         "3xl": "2000px", 
       }
     },

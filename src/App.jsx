@@ -5,9 +5,9 @@ const App = () => {
   return (
     <div className="bg-skin-primary-color font-DM-sans">
       <Navbar/>
+      <Header/>
       <About/>
       <Footer/>
-      <Header/>
       <Skills/>
       <Testimonial/>
       <Work/>
