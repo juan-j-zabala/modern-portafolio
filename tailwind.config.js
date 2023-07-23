@@ -17,7 +17,8 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        ligthshadow: "0px 0px 20px rgba(168, 168, 168, 0.15)"
+        ligthshadow: "0px 0px 20px rgba(168, 168, 168, 0.15)",
+        shadow2: "0px 0px 20px rgba(0, 0, 0, 0.1)",
       },
       backgroundImage: {
         bgWhite: "url('../src/assets/bgWhite.png')",
