@@ -16,6 +16,11 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        "lightGray-color": "#e4e4e4",
+        "secondary-color": "#313bac",
+        "anothergrat": "#cbcbcb"
+      },
       boxShadow: {
         ligthshadow: "0px 0px 20px rgba(168, 168, 168, 0.15)",
         shadow2: "0px 0px 20px rgba(0, 0, 0, 0.1)",

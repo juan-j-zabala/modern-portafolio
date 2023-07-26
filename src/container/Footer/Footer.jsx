@@ -1,7 +1,10 @@
-
+import {BsTwitter, BsInstagram} from 'react-icons/bs'
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      Footer
+      <BsTwitter/>
+    </div>
   )
 }
 

@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { images } from "../../constants";
 import tailwindclass from "../../styles/tailwindclass";
+import { AppWrapp } from "../../wrapper";
+// import AppWrapp from "../../wrapper/AppWrapp";
 
 const scaleVariants = {
   whileInView: {
@@ -71,4 +73,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default AppWrapp(Header,'home');

@@ -1,36 +1,36 @@
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
 import { images } from "../../constants";
 
-const abouts = [
-  {
-    title: "Web Development",
-    description: "I am a good web developer.",
-    imgUrl: images.about01,
-  },
-  {
-    title: "Web Design",
-    description: "I am a good web developer.",
-    imgUrl: images.about02,
-  },
-  {
-    title: "UI/UX",
-    description: "I am a good web developer.",
-    imgUrl: images.about03,
-  },
-  {
-    title: "Web Animations",
-    description: "I am a good web developer.",
-    imgUrl: images.about04,
-  },
-];
 
 const About = () => {
+ 
+const abouts = [
+  {
+    title: "Web Developer",
+    description: "I am a good web developer how whats to be a señor",
+    imgUrl: images.about01
+  },
+  {
+    title: "Frontend Developer",
+    description: "I am a good web developer how whats to be a señor",
+    imgUrl: images.about02
+  },  
+  {
+    title: "Backend Developer",
+    description: "I am a good web developer how whats to be a señor",
+    imgUrl: images.about03
+  },
+  {
+    title: "MERN Stack",
+    description: "I am a good web developer how whats to be a señor",
+    imgUrl: images.about04
+  },
+]
   return (
     <>
       <h2 className="head_text text-[2.75rem] font-extrabold text-center text-skin-black-color capitalize 3xl:text-[4rem] max-[450px]:text-[2rem]">
         I Know that
-        <span className="text-skin-secondary-color"> Good Design</span>
+        <span className="text-skin-secondary-color"> Good Dev</span>
         <br />
         means
         <span className="text-skin-secondary-color"> Good Business</span>
